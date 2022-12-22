@@ -6,9 +6,9 @@ public class Person implements Comparable<Person> {
 
     private String name;
     private LocalDate dateOfBirth;
-    private double height;
+    private int height;
 
-    public Person(String name, LocalDate dateOfBirth, double height) {
+    public Person(String name, LocalDate dateOfBirth, int height) {
         this.name = name;
         this.dateOfBirth = dateOfBirth;
         this.height = height;
@@ -34,7 +34,7 @@ public class Person implements Comparable<Person> {
         return height;
     }
 
-    public void setHeight(double height) {
+    public void setHeight(int height) {
         this.height = height;
     }
 
